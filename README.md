@@ -24,6 +24,7 @@ In order to render the math in many different fonts we use  XeLaTeX, generate a 
 1. Download/Clone this repository
 2. For now you need to install the Python dependencies specified in `requirements.txt` (look [above](#Requirements))
 3. Download the `weights.pth` (and optionally `image_resizer.pth`) file from the [Releases](https://github.com/lukas-blecher/LaTeX-OCR/releases/latest)->Assets section and place it in the `checkpoints` directory
+4. Or download the checkpoints folder from this link https://drive.google.com/file/d/1Jl0x5_i52VtlTp11t7TKDyFY1ryIPGd8/view?usp=sharing
 
 Thanks to [@katie-lim](https://github.com/katie-lim), you can use a nice user interface as a quick way to get the model prediction. Just call the GUI with `python gui.py`. From here you can take a screenshot and the predicted latex code is rendered using [MathJax](https://www.mathjax.org/) and copied to your clipboard.
 
